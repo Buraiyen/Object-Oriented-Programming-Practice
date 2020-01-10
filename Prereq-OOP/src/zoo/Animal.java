@@ -1,7 +1,8 @@
 package zoo;
 
 // Superclass / Parent class
-public class Animal {
+// abstract classes can only be extended. You can't instantiate an instance of an abstract class. It's only meant to be a parent of another class
+public abstract class Animal {
 
     int age, weightInLbs;
     String gender;
@@ -19,4 +20,7 @@ public class Animal {
     public void sleep() {
         System.out.println("sleeping...");
     }
+
+    // There are different ways an animal can move, so there is no specific implementation here
+    public abstract void move();
 }
