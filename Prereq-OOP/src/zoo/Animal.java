@@ -1,5 +1,6 @@
 package zoo;
 
+// Superclass / Parent class
 public class Animal {
 
     int age, weightInLbs;
