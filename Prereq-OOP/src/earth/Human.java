@@ -1,3 +1,4 @@
+package earth;
 
 // Classes contain instructions for how objects can be created as well as how objects carry out certain actions
 public class Human {
