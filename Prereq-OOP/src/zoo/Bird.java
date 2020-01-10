@@ -7,6 +7,11 @@ public class Bird extends Animal{
         super(age, gender, weightInLbs);    // Calling the super class' constructor
     }
 
+    @Override
+    public void move() {
+        System.out.println("flapping wings...");
+    }
+
     /* Removed this method because not all birds can fly */
 //    public void fly() {
 //        System.out.println("fly...");
