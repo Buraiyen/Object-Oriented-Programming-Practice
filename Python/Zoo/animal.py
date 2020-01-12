@@ -11,3 +11,6 @@ class Animal:
 
     def sleep(self):
         print('sleeping...')
+
+    def move(self):
+        pass

@@ -5,4 +5,6 @@ class Bird(Animal):
 
     def fly(self):
         print('flying...')
-    
+
+    def move(self):
+        print('flapping wings...')
