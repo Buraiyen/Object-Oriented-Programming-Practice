@@ -16,7 +16,7 @@ class Human:
         print('eating...')
 
     def walk(self):
-        print('walking...')
+        print('walking')
 
     def work(self):
-        print('working...')
+        print('working')
