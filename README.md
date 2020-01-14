@@ -54,7 +54,7 @@ Does not imply ownership to other objects
 
 ```java
 
-// If a course is canceled or removed, that doesn't mean the student
+// If a course is canceled or removed, that doesn't mean the student no longer exists
 public class HistoryCourse {
   Student [] registeredStudents;
 }
