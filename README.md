@@ -46,3 +46,14 @@ public class SchoolLanguageDepartment {
   JapaneseCourse japanese;
 }
 ```
+- __Aggregation__ - does not imply ownership to other objects
+
+#### ___Example___
+
+```java
+
+// If a course is canceled or removed, that doesn't mean the student
+public class HistoryCourse {
+  Student [] registeredStudents;
+}
+```
