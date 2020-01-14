@@ -17,6 +17,7 @@ Repo just to showcase what I am learning in object-oriented programming. Impleme
 ### Associations
 - __Composition__ - a particular object is composed of other objects. If the containing object ceases to exisst, then the internal parts it's composed of no longer exists
 
+#### ___Example 1___
 ```java
 public class Vehicle {
 
@@ -32,5 +33,16 @@ public class Vehicle {
   }
   
   // ...
+}
+```
+
+#### ___Example 2___
+```java
+
+// If the department closes down, then the courses no longer exist
+public class SchoolLanguageDepartment {
+  SpanishCourse spanish;
+  FrenchCourse french;
+  JapaneseCourse japanese;
 }
 ```
